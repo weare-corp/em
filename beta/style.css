@@ -1,0 +1,29 @@
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width:30%;
+}
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	text-decoration: none;
+}
+
+.burger{
+	display: none;
+}
+
+.burger div{
+	width: 23px;
+	height: 3px;
+	background-color: rbg(226, 226, 226);
+	margin: 5px;
+}
+
+@media screen and (max-width:){
+	body{
+		display:none;
+	}
+}
